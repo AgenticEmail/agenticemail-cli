@@ -5,9 +5,10 @@ Command-line interface for [AgenticEmail](https://agenticemail.dev) — email in
 ## Install
 
 ```sh
-npm install -g github:AgenticEmail/agenticemail-cli
-# or with bun:
-bun install -g github:AgenticEmail/agenticemail-cli
+npm install -g agenticemail-cli
+# or run without installing:
+bunx agenticemail-cli help
+npx agenticemail-cli help
 ```
 
 Requires Node 22+ or Bun (uses the built-in `fetch` and `WebSocket`).
