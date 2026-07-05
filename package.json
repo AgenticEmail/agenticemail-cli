@@ -10,9 +10,11 @@
   },
   "type": "module",
   "bin": {
-    "agenticemail": "./dist/cli.js"
+    "agenticemail": "dist/cli.js"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "test": "bun test",
