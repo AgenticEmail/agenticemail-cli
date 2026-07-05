@@ -1,0 +1,33 @@
+{
+  "name": "agenticemail-cli",
+  "version": "0.1.0",
+  "description": "Command-line interface for AgenticEmail — email for AI agents, end to end.",
+  "license": "Apache-2.0",
+  "homepage": "https://agenticemail.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgenticEmail/agenticemail-cli.git"
+  },
+  "type": "module",
+  "bin": {
+    "agenticemail": "./dist/cli.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "prepare": "tsup",
+    "test": "bun test",
+    "cleanup": "rimraf node_modules dist .turbo"
+  },
+  "dependencies": {
+    "agenticemail": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
