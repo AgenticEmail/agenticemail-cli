@@ -15,7 +15,6 @@
   "files": ["dist"],
   "scripts": {
     "build": "tsup",
-    "prepare": "tsup",
     "test": "bun test",
     "cleanup": "rimraf node_modules dist .turbo"
   },
